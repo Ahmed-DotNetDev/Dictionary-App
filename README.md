@@ -6,7 +6,7 @@ Dictionary App using HTML , CSS , SCSS , Javascript API
 ## Idea of application 🤔 
 
 <p>
-  
+   
 - Develop a dictionary application that provides definitions, meanings, and examples for words.
   
 - Implement a search functionality allowing users to look up words and retrieve relevant information.
