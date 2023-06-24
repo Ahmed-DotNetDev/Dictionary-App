@@ -74,6 +74,10 @@ body {
             border: none;
             outline: none;
             font-size: 18px;
+
+            &:hover {
+                cursor: pointer;
+            }
         }
 
         .details {
@@ -100,5 +104,6 @@ body {
     .error {
         margin-top: 80px;
         text-align: center;
+        color: red;
     }
 }
