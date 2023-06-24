@@ -67,3 +67,15 @@ function test_error() {
     msg.volume = 1.0;
     window.speechSynthesis.speak(msg);
 }
+// Adding style for footer 
+let copyr = document.getElementById("copyright");
+copyr.style.fontSize = "25px";
+copyr.style.position = "absolute";
+copyr.style.bottom = "5px";
+copyr.style.right = "33%";
+
+let link = document.getElementById("lin");
+link.style.textDecoration = "none";
+
+
+
