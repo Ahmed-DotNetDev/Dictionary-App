@@ -43,11 +43,27 @@ function playSound() {
 
     if (isFirstPlay) {
         msg.rate = 0.8;
+        msg.volume = 1.0;
         isFirstPlay = false;
     } else {
         msg.rate = 0.4;
+        msg.volume = 1.0;
         isFirstPlay = true;
     }
 
+    window.speechSynthesis.speak(msg);
+}
+
+btn.addEventListener('click', test_error);
+
+function test_error() {
+    var word = document.getElementById("inp-word").value;
+    var msg = new SpeechSynthesisUtterance();
+    if (word === "") {
+        msg.text = "Couldn't Find The Word please Type correct word ";
+
+    }
+    msg.rate = 0.5;
+    msg.volume = 1.0;
     window.speechSynthesis.speak(msg);
 }

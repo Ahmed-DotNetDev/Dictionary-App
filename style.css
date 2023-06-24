@@ -23,13 +23,11 @@ body {
   border-radius: 10px;
   box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
 }
-
 .container .search-box {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-
 .container .search-box input {
   padding: 5px;
   width: 70%;
@@ -38,7 +36,6 @@ body {
   border-bottom: 3px solid #ae9cff;
   font-size: 16px;
 }
-
 .container .search-box button {
   padding: 15px 0;
   width: 25%;
@@ -48,28 +45,23 @@ body {
   color: #ffffff;
   border-radius: 5px;
 }
-
 .container .search-box button:hover {
   cursor: pointer;
   background-color: #9682f0;
   transition: 0.3s ease-in-out;
 }
-
 .container .result {
   position: relative;
 }
-
 .container .result .h3 {
   font-size: 30px;
   color: #1f194c;
 }
-
 .container .result .word {
   display: flex;
   justify-content: space-between;
   margin-top: 80px;
 }
-
 .container .result button {
   background-color: transparent;
   color: #ae9cff;
@@ -77,11 +69,9 @@ body {
   outline: none;
   font-size: 18px;
 }
-
 .container .result button:hover {
   cursor: pointer;
 }
-
 .container .result .details {
   display: flex;
   gap: 10px;
@@ -89,11 +79,9 @@ body {
   margin: 5px 0 20px 0;
   font-size: 14px;
 }
-
 .container .word-meaning {
   color: #575a7b;
 }
-
 .container .word-example {
   color: #575a7b;
   font-style: italic;
@@ -101,11 +89,8 @@ body {
   padding-left: 20px;
   margin-top: 30px;
 }
-
 .container .error {
   margin-top: 80px;
   text-align: center;
   color: red;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
