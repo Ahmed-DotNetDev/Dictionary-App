@@ -29,7 +29,7 @@ Dictionary App using HTML , CSS , SCSS , Javascript API
   - click on search button.
   
   - finally, the result would display on the screen with it's example and so on.
-  - 
+    
 </p>
 
 ## API 👨🏻‍💻
