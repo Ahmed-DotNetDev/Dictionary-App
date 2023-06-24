@@ -26,15 +26,28 @@ function Display() {
                    ${data[0].meanings[0].definitions[0].definition}
                 </p>
                 <p class="word-example">
-                  <span>EX1)</span> ${data[0].meanings[0].definitions[0].example || ""}
+                  <span>EX)</span>  ${data[0].meanings[0].definitions[0].example || ""}
                 </p>`;
-            sound.setAttribute("src", `https:${data[0].phonetics[0].audio}`);
         })
         .catch(() => {
             result.innerHTML = `<h3 class="error">Couldn't Find The Word</h3>`;
         });
 }
 
+var isFirstPlay = true;
+
 function playSound() {
-    sound.play();
+    var word = document.getElementById("inp-word").value;
+    var msg = new SpeechSynthesisUtterance();
+    msg.text = word;
+
+    if (isFirstPlay) {
+        msg.rate = 0.8;
+        isFirstPlay = false;
+    } else {
+        msg.rate = 0.4;
+        isFirstPlay = true;
+    }
+
+    window.speechSynthesis.speak(msg);
 }
