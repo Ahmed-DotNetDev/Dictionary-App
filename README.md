@@ -3,7 +3,7 @@ Dictionary App using HTML , CSS , SCSS , Javascript API
 
 **[LIVE DEMO](https://ahmed-dotnetdev.github.io/Dictionary-App/)**
 
-## Idea of application 🤔 
+## Idea of application 🤔  
 
 <p>
    
